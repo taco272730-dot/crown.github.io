@@ -156,6 +156,26 @@ body{
 	.lgb_content ul{
 		display: inline-block;
 	}
+	.qq_content{
+		position: absolute;
+		background: #ffd900;
+		display: flex;
+		border-radius: 10px;
+		color: gray;
+		padding: 0 10px;
+		left: 17px;
+		top: 252px;
+		/* animation: flush 1s infinite; */
+	}
+	.qq_content div{
+		padding: 15px 10px;
+		display: flex;
+	}
+	.qq_content img{
+		width: 20px;
+		display: block;
+		margin: 0 5px;
+	}
 	.z01_btn_basic{
 		width: 144px;
 		height: 43px;
@@ -409,7 +429,7 @@ body{
 		min-width: 800px;
 	}
 	.footer{
-		padding: 30px 0 112px;
+		padding: 30px 0 163px;
 		text-align: center;
 		background: black;
 		border-width: 1px 0 0;
@@ -421,6 +441,22 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
+	}
+	.qq_text_zone{
+		background: #ffd900;
+		color: gray;
+		padding: 10px 15px;
+		display: flex;
+		justify-content: center;
+	}
+	.qq_text_zone div{
+		padding: 5px 20px;
+	}
+	.qq_text_zone img{
+		width: 15px;
+		margin: 0 10px;
+	}
+	.btn_zone{
 		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
@@ -596,6 +632,26 @@ body{
 
 	.lgb_content ul{
 		display: inline-block;
+	}
+	.qq_content{
+		position: absolute;
+		background: #ffd900;
+		display: flex;
+		border-radius: 10px;
+		color: gray;
+		padding: 0 10px;
+		left: 120px;
+		top: 252px;
+		/* animation: flush 1s infinite; */
+	}
+	.qq_content div{
+		padding: 15px 10px;
+		display: flex;
+	}
+	.qq_content img{
+		width: 20px;
+		display: block;
+		margin: 0 5px;
 	}
 	.z01_btn_basic{
 		width: 144px;
@@ -856,7 +912,7 @@ body{
 		display: inline-flex;
 	}
 	.footer{
-		padding: 30px 0 112px;
+		padding: 30px 0 163px;
 		text-align: center;
 		background: black;
 		border-width: 1px 0 0;
@@ -868,6 +924,22 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
+	}
+	.qq_text_zone{
+		background: #ffd900;
+		color: gray;
+		padding: 10px 15px;
+		display: flex;
+		justify-content: center;
+	}
+	.qq_text_zone div{
+		padding: 5px 20px;
+	}
+	.qq_text_zone img{
+		width: 15px;
+		margin: 0 10px;
+	}
+	.btn_zone{
 		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
@@ -1000,6 +1072,9 @@ body{
 		display: inline-flex;
 		width: 90%;
 		padding: 0 5% 20px;
+	}
+	.qq_content{
+		display: none;
 	}
 	.z01_loginbtn{
 		width: 95%;
@@ -1185,7 +1260,7 @@ body{
 		margin-right: 10px;
 	}
 	.footer{
-		padding: 30px 0 112px;
+		padding: 30px 0 197px;
 		font-size: 12px;
 		text-align: center;
 		background: black;
@@ -1202,6 +1277,23 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
+	}
+	.qq_text_zone{
+		background: #ffd900;
+		color: gray;
+		padding: 10px 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.qq_text_zone div{
+		padding: 5px 20px;
+	}
+	.qq_text_zone img{
+		width: 15px;
+		margin: 0 10px;
+	}
+	.btn_zone{
 		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
