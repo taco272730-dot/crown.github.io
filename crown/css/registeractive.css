@@ -221,7 +221,7 @@ body{
 	}
 	.title_basic{
 		font-size: 30px; 
-		color: #5690d4;
+		color: #cddc39;
 		font-weight: bold;  
 	}
 	.z01_title{
@@ -234,7 +234,7 @@ body{
 	.textcontent_1_z1 span{
 		width: 10px;
 		height: 10px;
-		border: 1px solid #57b0ef;
+		border: 1px solid #5ca245;
 		border-radius: 50%;
 		display: inline-block;
 		margin-right: 10px;
@@ -259,7 +259,7 @@ body{
 	}
 	.zone02{
 		width: 100%;
-		height: 243px;
+		height: 400px;
 		background: url("../images/repeat-bg.jpg") center repeat;
 		background-size: cover;
 	}
@@ -413,7 +413,7 @@ body{
 		text-align: center;
 		background: black;
 		border-width: 1px 0 0;
-		border-color: #303f68;
+		border-color: #24482a;
 		border-style: solid;
 	}
 	.fixed_btn_zone{
@@ -421,7 +421,7 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		background: linear-gradient(180deg,#182549,black);
+		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
 		justify-content: center;
@@ -433,7 +433,7 @@ body{
 		padding: 10px 20px;
 		border-radius: 10px;
 		margin: 0 10px;
-		background: linear-gradient(180deg,#478ae4,#1e3b8a);
+		background: linear-gradient(180deg,#246226,#237537);
 		animation: flush 1s infinite;
 	}
 }
@@ -523,18 +523,18 @@ body{
 	}
 	.zone01{
 		width: 100%;
-		height: 924px;
-		background: url("../images/z01_bg.jpg") center no-repeat;
-
+		height: 1184px;
+		background: url("../images/z01_bg.jpg") top center no-repeat;
+		overflow: hidden;
 	}
 	.zone01_center{
 		position: relative;
 		width: 700px;
 		/*max-width: 1600PX;*/
 		/*min-width: 1000PX;*/
-		height: 924px;
+		/* height: 924px; */
 		margin: 0 auto;
-		background: url("../images/z01_bg.jpg") center no-repeat;
+		/* background: url("../images/z01_bg.jpg") center no-repeat; */
 		/*background-color: aqua;*/
 	}
 	.z01_slogan{
@@ -551,7 +551,7 @@ body{
 		position: absolute;
 		width: 784px;
 		height: 860px;
-		top: 50px;
+		top: -35px;
 		left: -26%;
 		background: url(../images/z01_maingirl.png) center no-repeat;
 		background-size: 93%;
@@ -560,10 +560,10 @@ body{
 	.z01_girlcover{
 		position: absolute;
 		width: 1600px;
-		height: 493px;
-		top: 425px;
+		height: 772px;
+		top: 443px;
 		left: -450px;
-		background: url("../images/legcover.png") center no-repeat;
+		background: url("../images/legcover.png") top center no-repeat;
 	}
 	.loginaria{
 		position: absolute;
@@ -662,8 +662,8 @@ body{
 		right: 2%;
 	}
 	.title_basic{
-		font-size: 30px; 
-		color: #5690d4;
+		font-size: 22px; 
+		color: #cddc39;
 		font-weight: bold;  
 	}
 	.z01_title{
@@ -676,7 +676,7 @@ body{
 	.textcontent_1_z1 span{
 		width: 10px;
 		height: 10px;
-		border: 1px solid #57b0ef;
+		border: 1px solid #5ca245;
 		border-radius: 50%;
 		display: inline-block;
 		margin-right: 10px;
@@ -701,9 +701,9 @@ body{
 	}
 	.zone02{
 		width: 100%;
-		/* height: 277px; */
-		background: url("../images/z02_bg.jpg") center no-repeat;
-		background-size: cover;
+		height: 477px;
+		/* background: url("../images/z02_bg.jpg") center no-repeat; */
+		background-size: contain;
 	}
 	.zone02_center{
 		position: relative;
@@ -860,7 +860,7 @@ body{
 		text-align: center;
 		background: black;
 		border-width: 1px 0 0;
-		border-color: #303f68;
+		border-color: #24482a;
 		border-style: solid;
 	}
 	.fixed_btn_zone{
@@ -868,7 +868,7 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		background: linear-gradient(180deg,#182549,black);
+		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
 		justify-content: center;
@@ -880,7 +880,7 @@ body{
 		padding: 10px 20px;
 		border-radius: 10px;
 		margin: 0 10px;
-		background: linear-gradient(180deg,#478ae4,#1e3b8a);
+		background: linear-gradient(180deg,#246226,#237537);
 		animation: flush 1s infinite;
 	}
 }
@@ -955,7 +955,7 @@ body{
 	/*彈窗結束*/
 	body{
 		background: url(../images/repeat-bg.jpg) center repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 	.wrapper{
 		width:100%;
@@ -981,7 +981,7 @@ body{
 	}
 	.title_basic{
 		font-size: 30px; 
-		color: #5690d4;
+		color: #cddc39;
 		font-weight: bold;  
 	}
 	.z01_title{
@@ -1179,7 +1179,7 @@ body{
 	.textcontent_1_z1 span{
 		width: 10px;
 		height: 10px;
-		border: 1px solid #57b0ef;
+		border: 1px solid #5ca245;
 		border-radius: 50%;
 		display: inline-block;
 		margin-right: 10px;
@@ -1190,7 +1190,7 @@ body{
 		text-align: center;
 		background: black;
 		border-width: 1px 0 0;
-		border-color: #303f68;
+		border-color: #24482a;
 		border-style: solid;
 	}
 	.z01_btn_basic{
@@ -1202,7 +1202,7 @@ body{
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		background: linear-gradient(180deg,#182549,black);
+		background: linear-gradient(180deg,#272917,black);
 		padding: 20px 0;
 		display: flex;
 		justify-content: center;
@@ -1217,8 +1217,11 @@ body{
 		border-radius: 10px;
 		text-align: center;
 		margin: 0 10px;
-		background: linear-gradient(180deg,#478ae4,#1e3b8a);
+		background: linear-gradient(180deg,#246226,#237537);
 		animation: flush 1s infinite;
+	}
+	.tableImg{
+		width: 100%;
 	}
 }
 
